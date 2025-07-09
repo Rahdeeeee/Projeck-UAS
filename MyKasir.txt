@@ -1,0 +1,9 @@
+Nama Kelompok:
+ I Gusti Ngurah Ade Gasa Gastika (240030018)
+Untuk Login
+	bisa langsung Login dengan (Username : Admin, Password : Admin)
+	bisa juga registrasi dulu baru login
+
+Bisa menambahkan kategori dan produk yang dimana kedua table ini berelasi dan pada setiap table bisa dilakukan menghapus dan mengedit
+
+pada bagian transaksi masih belum terlalu optimal ada kendala pada logika simpan dan struk
