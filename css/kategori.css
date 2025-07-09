@@ -1,0 +1,76 @@
+/* === Layout dasar === */
+.content {
+    margin-left: 220px;
+    padding: 70px 20px 30px 20px; /* turun di bawah header */
+    background: #f8f9fa;
+    min-height: 100vh;
+}
+
+h3 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #333;
+    font-size: 1.2rem; /* lebih ramping */
+}
+
+/* === Tombol tambah kategori === */
+.btn-primary {
+    background: linear-gradient(45deg, #4e73df, #224abe);
+    border: none;
+    font-size: 0.9rem;
+    padding: 6px 14px;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(45deg, #224abe, #4e73df);
+}
+
+/* === Tabel === */
+.table {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.07);
+}
+
+.table th,
+.table td {
+    vertical-align: middle !important;
+    font-size: 0.9rem; /* lebih kecil supaya muat */
+}
+
+.table-dark {
+    background: linear-gradient(45deg, #4e73df, #224abe);
+    color: #fff;
+}
+
+/* === Tombol aksi edit & hapus === */
+.btn-sm {
+    padding: 4px 10px;
+    font-size: 0.8rem;
+}
+
+.btn-warning {
+    background-color: #f0ad4e;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #ec971f;
+}
+
+.btn-danger {
+    background-color: #d9534f;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c9302c;
+}
+
+/* === Responsive spacing === */
+@media (max-width: 768px) {
+    .content {
+        padding: 70px 10px 20px 10px;
+    }
+}

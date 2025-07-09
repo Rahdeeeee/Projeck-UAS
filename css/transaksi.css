@@ -1,0 +1,98 @@
+/* === Layout dasar === */
+.content {
+    margin-left: 220px;
+    padding: 70px 20px 30px 20px; /* turun di bawah header */
+    background: #f8f9fa;
+    min-height: 100vh;
+}
+
+h3, h5 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #333;
+    font-size: 1.2rem; /* lebih ramping */
+}
+
+/* === Form tambah ke keranjang === */
+form .mb-3 label {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 4px;
+    color: #333;
+}
+
+.form-control {
+    font-size: 0.9rem;
+    padding: 6px 10px;
+}
+
+/* === Tombol === */
+.btn-primary {
+    background: linear-gradient(45deg, #4e73df, #224abe);
+    border: none;
+    font-size: 0.9rem;
+    padding: 6px 14px;
+    margin-top: 5px;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(45deg, #224abe, #4e73df);
+}
+
+.btn-success {
+    background: linear-gradient(45deg, #1cc88a, #17a673);
+    border: none;
+    font-size: 0.9rem;
+    padding: 6px 14px;
+    margin-top: 10px;
+}
+
+.btn-success:hover {
+    background: linear-gradient(45deg, #17a673, #1cc88a);
+}
+
+.btn-danger.btn-sm {
+    padding: 4px 10px;
+    font-size: 0.8rem;
+}
+
+.btn-danger.btn-sm:hover {
+    background-color: #c9302c;
+}
+
+/* === Alert notification === */
+.alert {
+    font-size: 0.9rem;
+    padding: 6px 12px;
+    margin-bottom: 15px;
+}
+
+/* === Tabel keranjang === */
+.table {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.07);
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+.table th, .table td {
+    vertical-align: middle !important;
+}
+
+.table thead {
+    background: linear-gradient(45deg, #4e73df, #224abe);
+    color: #fff;
+}
+
+tfoot th {
+    background: #f1f1f1;
+}
+
+/* === Responsive spacing === */
+@media (max-width: 768px) {
+    .content {
+        padding: 70px 10px 20px 10px;
+    }
+}
